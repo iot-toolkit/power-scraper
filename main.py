@@ -4,6 +4,8 @@ import time
 
 
 def main():
+    print("Program starting...")
+    get_and_save_readings()
     schedule.every(10).seconds.do(get_and_save_readings)
     while 1:
         schedule.run_pending()
