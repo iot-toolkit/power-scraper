@@ -3,7 +3,7 @@ from getCurrentAndVoltage import get_current_and_voltage
 from datetime import datetime
 
 
-def get_and_save_readings():
+def get_and_save_as_csv():
     print("Getting and saving readings...")
 
     power = get_power()
@@ -24,4 +24,4 @@ def get_and_save_readings():
 
 
 if __name__ == "__main__":
-    get_and_save_readings()
+    get_and_save_as_csv()
